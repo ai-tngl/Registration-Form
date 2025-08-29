@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(68, 129, 208);
+	z-index: 1000;
+}
+.navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: right;
+}
+.navbar li {
+	margin: 2px;
+}
+.navbar a {
+	color: white;
+	text-decoration: none;
+	padding: 14px 20px;
+	display: block;
+}
+.navbar a:hover {
+	background-color: #42d2e5;
+}
+
+/* Header Section */
+header {
+	background: url('https://sandpipercomms.com/wp-content/uploads/2021/08/shutterstock_1932042689-scaled.jpg')
+		no-repeat center center/cover;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	opacity: 0.8;
+	font-size: 30px;
+	padding: 60px 20px;
+	margin-top: 50px;
+}
+
+/* Registration form */
+.form-section {
+	padding: 40px 20px;
+	background: #ddd;
+	text-align: center;
+}
+.registration-form {
+	background: rgba(68, 129, 208, 0.621);
+	max-width: 500px;
+	margin: auto;
+	padding: 50px;
+	border-radius: 16px;
+}
+.registration-form label {
+	display: block;
+	margin: 10px 0 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.registration-form input,
+.registration-form select {
+	width: 450px;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 16px;
+	box-sizing: border-box;
+}
+
+.btn-submit {
+	width: 100px;
+	padding: 10px;
+	border: none;
+	border-radius: 16px;
+	background: #0a3297cc;
+	color: rgb(255, 249, 249);
+	font-size: 16px;
+	cursor: pointer;
+}
+.btn-submit:hover {
+	background: #62dfdd;
+}
+
+/* Speaker Section */
+.speakers {
+	padding: 20px;
+	background: #f4f4f4;
+	text-align: center;
+}
+.speaker-cards {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.s-card {
+	background: rgba(25, 127, 211, 0.389);
+	border: 1px solid #ccc;
+	padding: 20px;
+	width: 250px;
+	overflow: auto;
+	border-radius: 16px;
+}
+
+/* Sponsors Section */
+.sponsors {
+	padding: 40px 20px;
+	background: #ddd;
+	text-align: center;
+}
+.sponsor-logos {
+	display: grid;
+	column-gap: 50px;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	gap: 5px;
+}
+.sponsor-logos img {
+	max-width: 100px;
+	transition: transform 0.3s;
+}
+.sponsor-logos img:hover {
+	transform: scale(1.1);
+}
+/* Footer */
+.footer {
+	background: #23859e;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.footer a {
+	text-decoration: none;
+	color: white;
+}
